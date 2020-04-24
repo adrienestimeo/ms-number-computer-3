@@ -28,8 +28,8 @@ module.exports = {
         if (typeof b === "string") {
             throw new Error('a String is not a valid number [arg 1].');
         }
-        
-        return a + b;
+
+        return a;
     }
 };
 
